@@ -38,15 +38,12 @@ main {
   text-align: center;
 }
 
-.btn {
+.btn,
+.btn:active {
   font-size: var(--fs-btn);
   border: none;
   padding: 1rem 2rem;
   border-radius: 10px;
-}
-
-.btn:hover {
-  transform: scale(1.1);
   cursor: pointer;
 }
 
