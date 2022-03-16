@@ -3,8 +3,8 @@ import React, { useState } from "react";
 export default function App() {
   const [count, setCount] = useState(0);
 
-  const increment = () => setCount(count + 1);
-  const decrement = () => setCount(count - 1);
+  const increment = () => setCount((prevCount) => prevCount + 1);
+  const decrement = () => setCount((prevCount) => prevCount - 1);
 
   return (
     <main className="main">
